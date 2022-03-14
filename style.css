@@ -1,0 +1,51 @@
+.content{
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+      width: 100%;
+    }
+  }
+@media screen and (min-width: 600px) {
+    .container{
+      width: 100%;
+    }
+  }
+@media screen and (min-width: 0px) {
+    .container{
+      width: 10%;
+    }
+  }
+
+#red {
+
+    background-color: red;    
+}
+#green {
+
+    background-color: green;    
+}
+#blue {
+
+    background-color: blue;    
+}
+#yellow {
+
+    background-color: yellow;    
+}
+#purple {
+
+    background-color: purple;    
+}
+#grey {
+
+    background-color: grey;    
+}
